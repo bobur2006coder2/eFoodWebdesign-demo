@@ -47,7 +47,7 @@
     text-align: center;
 }
 
-.cards_box{
+.cards_box {
     margin-top: 22px;
     display: flex;
     justify-content: space-around;
@@ -55,16 +55,21 @@
     flex-wrap: wrap;
 }
 
-.topfood_father{
+.topfood_father {
     display: flex;
     justify-content: space-between;
 }
 
-.blaze_pizza{
+.blaze_pizza {
     margin-top: 5px;
     margin-left: 10px;
 }
 
-.time{
+.time {
     margin-left: 10px;
+}
+
+.timer {
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
