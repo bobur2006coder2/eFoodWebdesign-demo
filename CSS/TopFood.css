@@ -37,6 +37,7 @@
 .main3_img {
     margin-top: 180px;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 .restaurant_text {
@@ -44,6 +45,7 @@
 }
 
 .start_section_text {
+    font-family: 'Rubik', sans-serif;
     text-align: center;
 }
 
@@ -74,6 +76,8 @@
 }
 
 .time {
+    font-family: Rubik;
+    font-style: normal;
     margin-left: 10px;
 }
 
