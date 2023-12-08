@@ -8,10 +8,11 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .container{
-    max-width: 1270px;
+    max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 20px;
