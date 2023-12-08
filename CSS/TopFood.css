@@ -47,6 +47,14 @@
     text-align: center;
 }
 
+.start_section_text_father{
+    margin-top: 30px;
+}
+
+.card{
+    margin-top: 30px;
+}
+
 .cards_box {
     margin-top: 22px;
     display: flex;
