@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.name-up{
+    font-family: Rubik;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    color: var(--Primary, #363853);
+    text-align: center;
+    margin-bottom: 55px;
+}
+.name-up span{
+    color: #FF7A50;
+}
+.ro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 39px;
+}
+.burger, .pizzaa, .sandwich, .asian, .dish{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #FFF;
+    border-radius: 8px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--Primary, #363853);
+}
+.burger{
+    padding: 13px 47px;
+    position: relative;
+    cursor: pointer;
+}
+.pizzaa{
+    padding: 4px  44px ;
+    position: relative;
+}
+.sandwich{
+    padding: 13px 33px;
+    position: relative;
+}
+.asian{
+    padding: 13px 27px;
+    position: relative;
+}
+.dish{
+    padding: 13px 35px;
+    position: relative;
+}
+.burg{
+    filter: invert(0.8);
+}
+.our-category{
+    margin-top: 95px;
+    margin-bottom: 100px;
+}
+ .burger:before {
+	content: "";
+	position: absolute;
+    left: 0;
+	width: 0;
+	height: 70px;
+	background: #FF7A50;
+	border-radius: 8px;
+	transition: all 2s ease;
+    opacity: 0.7;
+}
+
+.burger:hover:after{
+    content: "Burger";
+    position: absolute;
+    z-index: 3;
+    right: 49px;
+    color: #fff;
+}
+
+
+ .burger:hover:before {
+	width: 100%;
+}
+.pizzaa:before {
+	content:'';
+	position: absolute;
+    left: 0;
+	width: 0;
+	height: 70px;
+	background: #FF7A50;
+	border-radius: 8px;
+	transition: all 2s ease;
+    opacity: 0.7;
+}
+
+
+ .pizzaa:hover:before {
+	width: 100%;
+}
+.sandwich:before {
+	content:'';
+	position: absolute;
+    left: 0;
+	width: 0;
+	height: 70px;
+	background: #FF7A50;
+	border-radius: 8px;
+	transition: all 2s ease;
+    opacity: 0.7;
+}
+
+
+ .sandwich:hover:before {
+	width: 100%;
+}
+.asian:before {
+	content:'';
+	position: absolute;
+    left: 0;
+	width: 0;
+	height: 70px;
+	background: #FF7A50;
+	border-radius: 8px;
+	transition: all 2s ease;
+    opacity: 0.7;
+}
+
+
+ .asian:hover:before {
+	width: 100%;
+}
+.dish:before {
+	content:'';
+	position: absolute;
+    left: 0;
+	width: 0;
+	height: 70px;
+	background: #FF7A50;
+	border-radius: 8px;
+	transition: all 2s ease;
+    opacity: 0.7;
+}
+
+
+ .dish:hover:before {
+	width: 100%;
+}
+.row_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.food_cart{
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    background: #FFF;
+    width: 208px;
+
+}
+.first{
+    margin-left: 30px;
+}
+.second{
+    margin-left: 44px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.third{
+    margin-left: 30px;
+}
+.four{
+    margin-left: 30px;
+}
+.five{
+    margin-left: 30px;
+}
+.star{
+    margin-bottom: 27px;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+.vid{
+    text-align: center;
+    margin-bottom: 9px;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--Primary, #363853);
+}
+.price{
+    text-align: center;
+    margin-bottom: 11px;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--Primary, #363853);
+}
+.food_cart button{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 2px;
+    background: var(--Secondary, #FF7A50);
+    border: none;
+    padding: 7px 13px;
+    margin-left: 45px;
+    margin-bottom: 22px;
+}
