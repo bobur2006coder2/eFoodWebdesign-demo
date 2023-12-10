@@ -62,3 +62,13 @@ nav{
 }
 
 
+.topFood__btn{
+    padding: 10px 40px;
+    background-color:  #FF7A50;
+    border-radius: 40px 40px 0px;
+    border: none;
+    outline: none;
+}
+.cardImg{
+    width: 100%;
+}
