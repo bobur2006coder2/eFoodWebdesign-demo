@@ -1,7 +1,29 @@
-const searchIcon=document.querySelector(".searchIcon");
+// const searchIcon=document.querySelector(".searchIcon");
 
-searchIcon.addEventListener("click",()=>{
+// searchIcon.addEventListener("click",()=>{
+// })
+// document.addEventListener("keydown",(e)=>{
+//     console.log(e)
+// })
+
+const modal = document.querySelector('#modal');
+const btn = document.querySelector('#openModal');
+const closeBtn = document.querySelector('.close');
+
+btn.addEventListener("click",(e)=>{
+  modal.style.display = 'block';
 })
-document.addEventListener("keydown",(e)=>{
-    console.log(e)
+
+closeBtn.addEventListener("click",(e)=>{
+  e.preventDefault();
+  modal.style.display = 'none';
 })
+
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
+  }
+};
+
+
