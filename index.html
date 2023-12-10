@@ -18,12 +18,15 @@
 
     <nav class="container" style="background-color: #ffffff1f;">
         <div class="row pt-5 gap-4 d-flex align-items-center justify-content-between">
+
             <div class="col-1">
                 <img src="./img/icons/logo.svg" alt="" class="appbar__logo">
             </div>
-            <div class="col-8 d-flex align-items-center column-gap-5">
-                <div class="col-6">
-                    <ul class="d-flex justify-content-end list-unstyled column-gap-4 pt-3 align-items-center">
+
+            <div class="col-9 d-flex align-items-center sm:justify-content-between justify-content-end">
+
+                <div class="col-8 d-none d-sm-block">
+                    <ul class="d-flex justify-content-around list-unstyled column-gap-4 pt-3 align-items-center">
                         <li class="list-item">
                             <a href="">Home</a>
                         </li>
@@ -38,12 +41,13 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-4 d-flex align-items-center  justify-content-between">
+
+                <div class="col-sm-3 col-8  d-flex align-items-center  justify-content-between">
                     <i id="openModal" class="fas fa-search searchIcon" style="cursor: pointer;"></i>
                     <i class="fas fa-shopping-cart" style="cursor: pointer;"></i>
                     <div id="modal" class="modal">
                         <div class="modal-content">
-                            <div class="col-3" style="margin: 20px auto 0px ;">
+                            <div class="col-sm-3 col-10" style="margin: 20px auto 0px ;">
                                 <center>
                                     <div class="input-group mb-3">
                                         <input type="text" class="form-control" placeholder="Recipient's username"
@@ -59,38 +63,148 @@
                         Up</button>
                 </div>
             </div>
+
         </div>
     </nav>
 
     <header class="container">
-        <div class="header-box" class="d-flex justify-content-between">
-            <div>
-                <h1 style=" color: #363853;">Super Fast <span style="color: #FF7A50;"> Food <br>
-                        Delivery </span> Service</h1>
-                <p style="color: #363853;" class="mt-4 mb-4">We Provide Super Fast-Delivery Service. Let’s Use Our <br>
-                    Services Right Now And Get Discounts Of Up To 50%z</p>
-                <button type="button" class="btn btn-warning" style="background-color: #FF7A50; color: white;">Explore
-                    Food</button>
-                <button type="button" class="btn btn-warning" style="background-color: white; color: #363853;">Download
-                    App</button>
-            </div>
-            <div>
-                <img src="./Img/photo_2023-12-10_19-22-00-removebg-preview.png" alt="">
+        <div class="row mt-sm-0 mt-5">
+            <div class="col-12 d-flex flex-wrap align-items-center justify-content-between">
+
+                <div class="col-sm-4 col-10">
+                    <h1 class="text-left capitalize fw-bold">Super Fast <span style="color: #FF7A50;">Food </span>
+                        <span style="color: #FF7A50;">Delivery</span>
+                        Service
+                    </h1>
+                    <p>We provide super fast-delivery service. Let’s use our services right now and get discounts of up
+                        to 50%</p>
+                    <div class="d-flex align-items-center column-gap-sm-5 column-gap-2  mb-5 sm:mb-0">
+                        <button type="button" class="btn btn-warning"
+                            style="background-color: #FF7A50; color: white;">Explore Food</button>
+                        <a href="https://play.google.com/store/games?device=windows" class="fs-5" target="_blank"
+                            style="color: #363853;">
+                            Download App
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-10">
+                    <img src="./img/images/headerRight-img.png" alt="" style="width: 100%;">
+                </div>
+
             </div>
         </div>
+
     </header>
 
     <main>
         <section class="container">
             <div class="row">
                 <h1 class="text-center capitalize fw-bold">Top Food <span style="color: #FF7A50;">Restaurant</span></h1>
-               
-                <div class="col-12 d-flex flex-wrap row-gap-5 column-gap-lg-5 justify-content-center mt-5 " id="Restaurant"></div>
+                <div class="col-12 d-flex flex-wrap row-gap-5 column-gap-lg-5 justify-content-center justify-content-sm-between mt-5 "
+                    id="Restaurant"></div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row justify-content-around flex-wrap align-items-center" style="margin-top: 150px;">
+
+                <div class="col-10 col-sm-4">
+                    <h2 class=" capitalize fw-bold ">Download Our <span style="color: #FF7A50;">Mobile
+                            App</span></h2>
+                    <p class="mt-4 mb-4">It's all at your fingertips -- the restaurants you love. Find the right food to
+                        suit your mood,
+                        and make the first bite last. Go ahead, download app and get 50% discount</p>
+
+                    <div class="d-flex align-items-center column-gap-sm-5 column-gap-2  mb-5 sm:mb-0">
+                        <a href="https://www.apple.com/app-store/" target="_blank">
+                            <img src="./img/images/storeBtn.svg" alt="" style="cursor: pointer;">
+                        </a>
+                        <a href="https://play.google.com/store/games?device=windows" target="_blank">
+                            <img src="./img/images/playBtn.svg" alt="" style="cursor: pointer;">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-10 col-sm-5">
+                    <img src="./img/images/phones.png" alt="" style="width: 100%;">
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <h1 class="text-center capitalize fw-bold mt-5">What Our Client Are <span
+                        style="color: #FF7A50;">Saying</span>
+                </h1>
+
+                <div class="col-12 mt-5 d-flex flex-wrap align-items-center justify-content-around">
+                    <div class="col-sm-5 col-10">
+                        <img src="./img/images/sister-hodDog.svg" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-sm-4 col-10">
+                        <p class="lh-lg">EFood has the most intriguing food order system in the country. UI in both
+                            their app and web
+                            Is very simple and easy to use, enhancing the UX. Their delivery men are also quite
+                            professional and knows the neighborhood well. Till now I never had to guide them to my
+                            address for delivery; </p>
+
+                        <div class="d-flex mt-5 align-items-center justify-content-between">
+                            <div class="lh-1">
+                                <h4 class="fs-5 fw-bold" style="color: #FF7A50;">Anglina Jole</h4>
+                                <span class="fs-6" style="color: #AAAAAA;">Food lover</span>
+                            </div>
+                            <div class="d-flex align-item column-gap-5 fs-4">
+                                <i class="fas fa-arrow-left" id="sayingLeft"></i>
+                                <i class="fas fa-arrow-right" id="sayingRight"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
+
     </main>
 
+    <footer class="container">
+        <div class="row">
+            <div class="col-12 d-flex align-items-center justify-content-between" id="footerCards_container">
+                <div class="col-2 flex-column row-gap-3 d-flex">
+                    <img src="./img/icons/logo.svg" alt="" style="width: 45%;">
+                    <i class="fas fa-map-marker-alt"><span>Dhaka, Bangladesh</span></i>
+                    <i class="fas fa-phone-volume"><span>0943833399</span></i>
+                    <i class="fas fa-envelope-square"><span>support@efood.com</span></i>
+                    <div class="d-flex column-gap-3">
+                        <div class="circleIcon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="circleIcon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="circleIcon">
+                            <i class="fab fa-instagram-square"></i>
+                        </div>
+                        <div class="circleIcon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <ul style="list-style: none;">
+                        <li class="fw-bold fs-5 ">Service</li>
+                        <li class="fw-medium">How it works</li>
+                        <li class="fw-medium">How it works</li>
+                        <li class="fw-medium">How it works</li>
+                        <li class="fw-medium">How it works</li>
+                        <li class="fw-medium">How it works</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 
     <script src="./script.js"></script>
 </body>

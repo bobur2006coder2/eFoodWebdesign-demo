@@ -64,14 +64,14 @@ const Restaurant=document.getElementById("Restaurant");
 
 for(let i =0;  i <=dataBase.length; i++){
    Restaurant.innerHTML+=`
-   <div class="col-12 col-sm-3 bg-white border-left-0" style="border-radius: 50px 0px; border: 1px solid transparent;">
-   <div class="">
-       <img src="${dataBase[i].imgUrl}" alt="" class="cardImg">
+   <div class="col-11 col-sm-3 bg-white border-left-0" style="border-radius: 50px 0px; border: 1px solid transparent;">
+   <div>
+       <img src="${dataBase[i]?.imgUrl}" alt="" class="cardImg">
    </div>
    <div class="p-1 pt-5 pb-5 ">
-       <h4 style="color:#363853;">${dataBase[i].cardTitle}</h4>
+       <h4 style="color:#363853;">${dataBase[i]?.cardTitle}</h4>
        <div class="d-flex align-items-center justify-content-between">
-           <i class="fas fa-stopwatch fs-4"> <span class="fs-5 fw-light">${dataBase[i].clock}</span></i>
+           <i class="fas fa-stopwatch fs-4"> <span class="fs-5 fw-light">${dataBase[i]?.clock}</span></i>
            <button class="topFood__btn">
                <i class="fas fa-arrow-right text-white"></i>
            </button>
@@ -80,3 +80,7 @@ for(let i =0;  i <=dataBase.length; i++){
 </div>
    `
 }
+
+const footerCards=document.getElementById("footerCards_container");
+
+console.log(footerCards.appendChild(`dsdfdsjfkldskljflkdsfjlsdjlkfdsjkl`))
