@@ -8,15 +8,17 @@
 
 const modal = document.querySelector('#modal');
 const btn = document.querySelector('#openModal');
-const close = document.querySelector('.close');
+const closeBtn = document.querySelector('.close');
 
-btn.onclick = function () {
+btn.addEventListener("click",(e)=>{
   modal.style.display = 'block';
-};
+})
 
-close.onclick = function () {
+closeBtn.addEventListener("click",(e)=>{
+  e.preventDefault();
   modal.style.display = 'none';
-};
+})
+
 
 window.onclick = function (event) {
   if (event.target == modal) {
