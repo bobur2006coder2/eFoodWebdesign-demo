@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
+
 body{
     background-color: #F4F6FC;  
 };
@@ -76,4 +77,8 @@ body{
 .liFooter:hover{
     color:#FF7A50 ;
     cursor: pointer;
+}
+
+#carouselExampleIndicators{
+    color: red;
 }
