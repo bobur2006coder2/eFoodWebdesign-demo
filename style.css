@@ -8,8 +8,7 @@
 }
 
 body{
-    background-color: #F4F6FC;
-
+    background-color: #F4F6FC;  
 };
 
 .appbar__logo{
@@ -28,4 +27,50 @@ body{
 .list-item a:hover{
     color: orange;
     cursor: pointer;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+.modal-content {
+    text-align: center;
+  }
+
+.header-box{
+    margin-top: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.topFood__btn{
+    padding: 10px 40px;
+    background-color:  #FF7A50;
+    border-radius: 40px 40px 0px;
+    border: none;
+    outline: none;
+}
+.cardImg{
+    width: 100%;
+}
+
+#sayingLeft , #sayingRight:hover{
+    cursor: pointer;
+    color: #FF7A50;
+}
+
+.circleIcon{
+    background-color: #EEEEEF;
+    padding:  5px 12px;
+    border-radius: 50%;
 }
