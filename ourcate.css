@@ -252,3 +252,64 @@
     margin-left: 45px;
     margin-bottom: 22px;
 }
+.row_card{
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.ro{
+    flex-wrap: wrap;
+    gap: 30px;
+}
+@media (max-width:470px) {
+    .row_card{
+        gap: 15px;
+    }
+    .ro{
+        gap: 15px;
+    }
+    .burger{
+        padding: 10px 35px;
+    }
+    .pizzaa{
+        padding: 0px 35px;
+    }
+    .sandwich{
+        padding: 10px 22px ;
+    }
+    .asian{
+        padding: 10px 18px;
+    }
+    .dish{
+        margin: auto;
+        padding: 10px 30px;
+    }
+    .food_cart:last-child{
+        margin: auto;
+    }
+    .food_cart{
+        
+        width: 195px;
+    }
+}
+@media (max-width:438px) {
+    .food_cart{
+        margin: auto;
+    }
+    .burger{
+        padding: 10px 15px;
+    }
+    .pizzaa{
+        padding: 0px 17px;
+    }
+    .sandwich{
+        padding: 3px 5px;
+    }
+    .asian{
+        padding: 3px 0px;
+    }
+    .dish{
+        padding: 4px 20px;
+    }
+
+}
