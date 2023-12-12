@@ -62,7 +62,7 @@ const dataBase=[
 
 const Restaurant=document.getElementById("Restaurant");
 
-for(let i =0;  i <=dataBase.length; i++){
+for(let i =0;  i <=dataBase.length-1; i++){
    Restaurant.innerHTML+=`
    <div class="col-11 col-sm-3 bg-white border-left-0" style="border-radius: 50px 0px; border: 1px solid transparent;">
    <div>

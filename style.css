@@ -74,3 +74,7 @@ body{
     padding:  5px 12px;
     border-radius: 50%;
 }
+.liFooter:hover{
+    color:#FF7A50 ;
+    cursor: pointer;
+}
