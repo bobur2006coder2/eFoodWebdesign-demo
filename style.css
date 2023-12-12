@@ -7,8 +7,7 @@
     font-family: 'Rubik', sans-serif;
 }
 body{
-    background-color: #F4F6FC;
-
+    background-color: #F4F6FC;  
 };
 
 .appbar__logo{
@@ -46,15 +45,6 @@ body{
     text-align: center;
   }
 
-
-nav{
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-}
-
-
 .header-box{
     margin-top: 220px;
     display: flex;
@@ -62,3 +52,24 @@ nav{
 }
 
 
+.topFood__btn{
+    padding: 10px 40px;
+    background-color:  #FF7A50;
+    border-radius: 40px 40px 0px;
+    border: none;
+    outline: none;
+}
+.cardImg{
+    width: 100%;
+}
+
+#sayingLeft , #sayingRight:hover{
+    cursor: pointer;
+    color: #FF7A50;
+}
+
+.circleIcon{
+    background-color: #EEEEEF;
+    padding:  5px 12px;
+    border-radius: 50%;
+}
