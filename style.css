@@ -78,3 +78,7 @@ body{
     color:#FF7A50 ;
     cursor: pointer;
 }
+
+#carouselExampleIndicators{
+    color: red;
+}
